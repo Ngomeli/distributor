@@ -15,21 +15,21 @@
                     header {
                         display: flex;
                         margin: auto;
-                        height: 30vh;
+                        height: 20vh;
                         align-items: center;
+                        background: #d5d3db98;
                     }
                     
                     .logo {
                         flex: 1;
-                        margin: 1.5rem;
+                        margin-top: 5px;
                     }
                     
                     .logo img {
                         cursor: pointer;
                         float: left;
-                        width: 40%;
+                        width: 100%;
                         height: 100%;
-                        margin: 20px;
                     }
                     
                     nav {
@@ -53,35 +53,33 @@
                     }
                     
                     .nav-link {
-                        color: #53bde0;
+                        color: orangered;
                         font-size: 1rem;
                         text-decoration: none;
                         border: 1px solid transparent;
                         padding: 5px 20px;
-                        font-weight: 1000;
+                        font-weight: 500;
                     }
                     
                     .nav-link:hover {
                         transition: 1s ease;
-                        color: blueviolet;
+                        color: rgb(63, 49, 30);
                     }
                     
                     .presentation {
-                        display: flex;
+                        display: grid;
                         width: 90%;
                         margin: auto;
                         align-items: center;
                     }
                     
-                    .intro {
-                        flex: 1;
-                    }
-                    
                     .cover {
                         flex: 1;
-                        justify-content: space-between;
+                        justify-content: space-evenly;
                         cursor: pointer;
-                        height: 60vh;
+                        height: 70vh;
+                        grid-template-columns: 1fr 1fr 1fr;
+                        grid-template-columns: repeat(auto-fit, minmax(348px, 1fr));
                     }
                     
                     .cover img {
@@ -91,44 +89,6 @@
                         justify-content: space-between;
                         filter: drop-shadow(0px 5px 3px black);
                         animation: drop 2.5s ease-in-out;
-                    }
-                    
-                    .intro-text {
-                        font-size: 2.8rem;
-                        font-weight: 500;
-                        background: linear-gradient(to right, #494964, #6f6f89);
-                        -webkit-background-clip: text;
-                        -webkit-text-fill-color: transparent;
-                    }
-                    
-                    .intro-text p {
-                        margin-top: 0.8rem;
-                        font-size: 1.4rem;
-                        color: #585772;
-                    }
-                    
-                    .cta {
-                        padding: 3rem 0rem 0rem 0rem;
-                    }
-                    
-                    .cta-select {
-                        border: 2px solid #c36cbb;
-                        background: transparent;
-                        color: #c36cbb;
-                        width: 9.4rem;
-                        height: 3rem;
-                        cursor: pointer;
-                        border-radius: 3rem;
-                    }
-                    
-                    .cta-select:hover {
-                        transition: 1s ease;
-                        color: blueviolet;
-                        background-color: rgba(136, 109, 161, 0.349);
-                    }
-                    
-                    .cta-select:focus {
-                        background-color: lavenderblush;
                     }
                     /*
 ul {
@@ -227,6 +187,20 @@ ul li a:hover {
                         border-radius: 20px;
                     }
                     
+                    .posters {
+                        cursor: pointer;
+                    }
+                    
+                    .posters img {
+                        width: 20%;
+                        height: 100%;
+                        margin-left: 20px;
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                        filter: drop-shadow(0px 5px 3px black);
+                        animation: slide2 1.5s ease-in-out;
+                    }
+                    
                     .form {
                         text-align: center;
                         color: steelblue;
@@ -292,6 +266,7 @@ ul li a:hover {
                     footer {
                         text-align: center;
                         font-size: 1rem;
+                        background: #d5d3db98;
                     }
                     
                     @keyframes drop {
@@ -309,6 +284,17 @@ ul li a:hover {
                         0% {
                             opacity: 0;
                             transform: translateX(-1000%);
+                        }
+                        100% {
+                            opacity: 1;
+                            transform: translateX(0px);
+                        }
+                    }
+                    
+                    @keyframes slide2 {
+                        0% {
+                            opacity: 0;
+                            transform: translateX(-100%);
                         }
                         100% {
                             opacity: 1;
@@ -335,7 +321,7 @@ ul li a:hover {
                             z-index: 2;
                         }
                         .nav-links {
-                            background: rgb(83, 81, 79);
+                            background: #d5d3db98;
                             position: fixed;
                             height: 100vh;
                             width: 100%;
@@ -353,20 +339,7 @@ ul li a:hover {
                         .presentation {
                             flex-direction: column;
                         }
-                        .intro {
-                            margin-top: 5vh;
-                            text-align: center;
-                        }
-                        .intro-text h1 {
-                            font-size: 30px;
-                        }
-                        .intro-text p {
-                            font-size: 18px;
-                        }
-                        .cta {
-                            padding: 10px 0px 0px 0px;
-                        }
                         .cover img {
-                            height: 80%;
+                            height: 60%;
                         }
                     }
