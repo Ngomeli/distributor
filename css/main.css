@@ -5,7 +5,7 @@
                     }
                     
                     body {
-                        font-family: font-family: 'Roboto', sans-serif;
+                        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
                     }
                     
                     button {
@@ -53,7 +53,7 @@
                     }
                     
                     .nav-link {
-                        color: orangered;
+                        color: rgb(63, 49, 30);
                         font-size: 1rem;
                         text-decoration: none;
                         border: 1px solid transparent;
@@ -63,30 +63,29 @@
                     
                     .nav-link:hover {
                         transition: 1s ease;
-                        color: rgb(63, 49, 30);
+                        color: orangered
                     }
-                    
-                    .presentation {
-                        display: grid;
-                        width: 90%;
-                        margin: auto;
-                        align-items: center;
-                    }
-                    
-                    .cover {
-                        flex: 1;
-                        justify-content: space-evenly;
+                    /* .advert {
                         cursor: pointer;
-                        height: 70vh;
-                        grid-template-columns: 1fr 1fr 1fr;
-                        grid-template-columns: repeat(auto-fit, minmax(348px, 1fr));
+                        display: grid;
+                        width: 100%;
+                        height: 60vh;
+                        margin: 20px;
+                        grid-template-columns: 1fr 1fr 1fr 1fr;
+                        grid-template-columns: repeat(auto-fit, minmax(384px, 1fr 1fr 1fr 1fr));
+                    }
+                    */
+                    
+                    .advert {
+                        height: 60vh;
                     }
                     
-                    .cover img {
-                        height: 100%;
-                        margin: 24px;
-                        margin-bottom: 20px;
-                        justify-content: space-between;
+                    .advert img {
+                        width: 20%;
+                        /* height: 100%;*/
+                        /* margin-bottom: 20px; */
+                        float: left;
+                        margin: 1.66%;
                         filter: drop-shadow(0px 5px 3px black);
                         animation: drop 2.5s ease-in-out;
                     }
@@ -118,6 +117,18 @@ ul li a:hover {
 }
 */
                     
+                    .products {
+                        /* display: grid;
+                        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+                        grid-gap: 20px 20px;*/
+                    }
+                    
+                    .products img {
+                        width: 30%;
+                        float: left;
+                        margin: 1.66%;
+                    }
+                    
                     .about img {
                         float: right;
                         width: 20%;
@@ -126,6 +137,8 @@ ul li a:hover {
                         margin-top: 20px;
                         margin-bottom: 20px;
                         filter: drop-shadow(0px 5px 3px black);
+                        cursor: pointer;
+                        border-radius: 50px;
                     }
                     
                     .about {
@@ -148,10 +161,6 @@ ul li a:hover {
                         justify-content: space-evenly;
                     }
                     
-                    img {
-                        border-radius: 50px;
-                    }
-                    
                     .nav-list {
                         list-style: none;
                         display: flex;
@@ -159,7 +168,7 @@ ul li a:hover {
                     }
                     
                     .icon-link i {
-                        animation: slide 2.5s ease-in-out;
+                        animation: slide 2.5s ease-in-out 2;
                         filter: drop-shadow(0px 5px 3px rgb(185, 155, 155));
                     }
                     
@@ -198,7 +207,8 @@ ul li a:hover {
                         margin-top: 20px;
                         margin-bottom: 20px;
                         filter: drop-shadow(0px 5px 3px black);
-                        animation: slide2 1.5s ease-in-out;
+                        animation: slide2 2.5s ease-in-out 2;
+                        transform: translateX(10rem);
                     }
                     
                     .form {
@@ -298,7 +308,7 @@ ul li a:hover {
                         }
                         100% {
                             opacity: 1;
-                            transform: translateX(0px);
+                            transform: translateX(10rem);
                         }
                     }
                     
@@ -336,10 +346,7 @@ ul li a:hover {
                             -webkit-clip-path: circle(1000px at 90% -10%);
                             pointer-events: all;
                         }
-                        .presentation {
-                            flex-direction: column;
-                        }
-                        .cover img {
-                            height: 60%;
+                        .advert img {
+                            height: 80%;
                         }
                     }
