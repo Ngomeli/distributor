@@ -63,7 +63,7 @@
                     
                     .nav-link:hover {
                         transition: 1s ease;
-                        color: orangered
+                        color: orangered;
                     }
                     /* .advert {
                         cursor: pointer;
@@ -175,7 +175,7 @@ ul li a:hover {
                     .fa-instagram {
                         font-size: 2rem;
                         padding: 8px;
-                        color: #e4405f
+                        color: #e4405f;
                     }
                     
                     .fa-instagram:hover {
