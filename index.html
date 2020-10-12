@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, intial-scale=1">
     <meta name="Description" content="Noah Distributors is an enterprenuer who finds a way to meet your need">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -14,111 +16,107 @@
 <!--Beginning of the body-->
 
 <body>
-    <header>
-
-        <div class="logo">
-            <img src="images/NOAH DISTRIBUTORS PNG.png" alt="Noh Distributors Logo">
-        </div>
-        <nav>
-            <div class="hamburger">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
+    <section id="title">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a href="" class="navbar-brand">NOAH DISTRIBUTORS</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html" target="_blank">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1>Where Your Need Is Met!!!</h1>
+                    <button type="button" class="btn btn-dark btn-lg download"><i class="fab fa-apple"></i> Download</button>
+                    <button type="button" class="btn btn-outline-light btn-lg download"> <i class="fab fa-google-play"></i> Download</button>
+                </div>
+                <div class="col-lg-6">
+                    <img class="title-image" src="images/posters.jpeg" alt="posters">
+                </div>
             </div>
-            <ul class="nav-links">
-                <li><a href="index.html" class="nav-link">Home</a></li>
-                <li><a href="#products" class="nav-link">Products</a></li>
-                <li><a href="#services" class="nav-link">Services</a></li>
-                <li><a href="about.html" target="_blank" class="nav-link">About</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-        </nav>
-
-        <!--  <div class="cart">
-            <i class="fas fa-shopping-cart"></i>
-        </div> -->
-
-    </header>
+        </div>
+    </section>
     <main>
-        <section>
-            <div class="advert">
-                <img src="images/banner.jpeg" alt="Poster for all clothing products">
-                <img src="images/waterbanner.jpeg" alt="poster for water">
-                <img src="images/earPhones.jpeg" alt="earPhones poster">
-                <img src="images/skatesBikes.jpeg" alt="skates and bikes banner">
-            </div>
-
-        </section>
-        <section>
-            <div class="products" id="products">
-                <img src="images/socks1.jpeg " alt="socks ">
-                <img src="images/socks4.jpeg" alt="socks">
-                <img src="images/socks2.jpeg" alt="socks">
-                <img src="images/socks3.jpeg" alt="socks">
-
-                <img src="images/vest.jpeg " alt="vests ">
-                <img src="images/men.jpeg " alt="boxer ">
-
-                <img src="images/ladies1.jpeg " alt="pantie ">
-                <img src="images/ladies2.jpeg" alt="pantie">
-
-                <img src="images/water.jpeg " alt="Water " height="350">
-                <img src="images/eggs.jpeg" alt="Eggs" height="350">
-                <img src="images/achari.jpeg " alt="achari " width="500" height="350">
+        <div class="container" id="services">
+            <div class="skills">
+                <div class="achari ">
+                    <img src="images/achari.jpeg " alt="achari " width="250 " height="250 ">
+                </div>
+                <h1>Achari</h1>
+                <p>Dried spicied mangoes all the way from Mombasa.</p>
 
             </div>
 
-        </section>
-        <section>
-            <div class="container" id="services">
+            </section>
+            <section>
+                <div class="container" id="services">
 
 
 
 
-                <div class="smokie ">
-                    <img src="images/eggs.jpeg " alt="Boiled Eggs " width="250 " height="250 ">
+                    <div class="smokie ">
+                        <img src="images/eggs.jpeg " alt="Boiled Eggs " width="250 " height="250 ">
+                    </div>
+                    <h1>Boiled Eggs</h1>
+                    <p>Boiled eggs served with Kachumbari and chilly.</p>
+
+
+
+
+
+                    <div class="bikes ">
+                        <img src="images/bikes.jpeg " alt="bikes " width="250 " height="250 ">
+                    </div>
+                    <h1>Mountain-Bikes</h1>
+                    <p>Mountain-bikes for hire per hour.</p>
+
+
+                    <div class="repair ">
+                        <img src="images/repair.jpeg " alt="repair " width="250 " height="250 ">
+                    </div>
+                    <h1>Repairing Bikes</h1>
+                    <p>Incase of damages still do repair at cost</p>
+
+
+
+                    <div class="headphones ">
+                        <img src="images/headphones.jpeg " alt="headphones " width="250 " height="250 ">
+                    </div>
+                    <h1>Headphones</h1>
+                    <p>Headphones for hire per hour with really good quality sound.</p>
                 </div>
-                <h1>Boiled Eggs</h1>
-                <p>Boiled eggs served with Kachumbari and chilly.</p>
-
-
-
-
-
-                <div class="bikes ">
-                    <img src="images/bikes.jpeg " alt="bikes " width="250 " height="250 ">
-                </div>
-                <h1>Mountain-Bikes</h1>
-                <p>Mountain-bikes for hire per hour.</p>
-
-
-                <div class="repair ">
-                    <img src="images/repair.jpeg " alt="repair " width="250 " height="250 ">
-                </div>
-                <h1>Repairing Bikes</h1>
-                <p>Incase of damages still do repair at cost</p>
-
-
-
-                <div class="headphones ">
-                    <img src="images/headphones.jpeg " alt="headphones " width="250 " height="250 ">
-                </div>
-                <h1>Headphones</h1>
-                <p>Headphones for hire per hour with really good quality sound.</p>
-            </div>
-        </section>
-        <div class="form" id="contact">
-            <p><strong>Contact</strong></p>
-            <form action="">
-                <input type="text" placeholder="Your Name">
-                <input type="email" placeholder="Your Email">
-                <textarea name="comment" id="" cols="30" rows="10" placeholder="Your message"></textarea>
-                <input type="submit" name="submit" class="submit">
-            </form>
-        </div>
+                <<<<<<< HEAD </section>
+                    <div class="form" id="contact">
+                        <p><strong>Contact</strong></p>
+                        <form action="">
+                            <input type="text" placeholder="Your Name">
+                            <input type="email" placeholder="Your Email">
+                            <textarea name="comment" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+                            <input type="submit" name="submit" class="submit">
+                        </form>
+                        ======= >>>>>>> master
+                    </div>
     </main>
-    <footer>&copy; Copyright Joshua Ngomeli 2020</footer>
-    <script src="main.js"></script>
+    <footer>&copy; Copyright Noah Distributors 2020</footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 
 </html>
