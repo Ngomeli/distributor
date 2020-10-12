@@ -5,11 +5,14 @@
                     }
                     
                     body {
-                        font-family: font-family: 'Roboto', sans-serif;
+                        font-family: "Montserrat-black";
+                        color: #000;
                     }
                     
-                    button {
-                        font-family: font-family: 'Roboto', sans-serif;
+                    h1 {
+                        font-family: "Montserrat-black", sans-serif;
+                        font-size: 3.5rem;
+                        line-height: 1.5;
                     }
                     
                     .container-fluid {
@@ -26,50 +29,31 @@
                         transform: rotate(25deg);
                     }
                     
+                    .navbar {
+                        padding: 0 0 4.5rem;
+                    }
+                    
+                    .navbar-brand {
+                        font-family: "Ubuntu";
+                        font-size: 2.5rem;
+                        font-weight: bold;
+                    }
+                    
+                    .nav-item {
+                        padding: 0 18px;
+                    }
+                    
+                    .nav-link {
+                        font-size: 1.2rem;
+                        font-family: "Monsterrat-Light";
+                    }
+                    
                     .download {
                         margin: 5% 3% 5% 0;
                     }
                     
-                    .navbar-brand {
-                        color: orangered;
-                    }
-                    
-                    .nav-link {
-                        color: orangered;
-                        font-size: 1rem;
-                        text-decoration: none;
-                        border: 1px solid transparent;
-                        padding: 5px 20px;
-                        font-weight: 500;
-                    }
-                    
                     .nav-link:hover {
                         color: steelblue;
-                    }
-                    
-                    .presentation {
-                        display: grid;
-                        width: 90%;
-                        margin: auto;
-                        align-items: center;
-                    }
-                    
-                    .cover {
-                        flex: 1;
-                        justify-content: space-evenly;
-                        cursor: pointer;
-                        height: 70vh;
-                        grid-template-columns: 1fr 1fr 1fr;
-                        grid-template-columns: repeat(auto-fit, minmax(348px, 1fr));
-                    }
-                    
-                    .cover img {
-                        height: 100%;
-                        margin: 24px;
-                        margin-bottom: 20px;
-                        justify-content: space-between;
-                        filter: drop-shadow(0px 5px 3px black);
-                        animation: drop 2.5s ease-in-out;
                     }
                     
                     .about img {
@@ -128,20 +112,6 @@
                         color: #3b5999;
                         background-color: #fff;
                         border-radius: 20px;
-                    }
-                    
-                    .posters {
-                        cursor: pointer;
-                    }
-                    
-                    .posters img {
-                        width: 20%;
-                        height: 100%;
-                        margin-left: 20px;
-                        margin-top: 20px;
-                        margin-bottom: 20px;
-                        filter: drop-shadow(0px 5px 3px black);
-                        animation: slide2 1.5s ease-in-out;
                     }
                     
                     .form {
@@ -210,15 +180,4 @@
                         text-align: center;
                         font-size: 1rem;
                         background: #d5d3db98;
-                    }
-                    
-                    @keyframes drop {
-                        0% {
-                            opacity: 0;
-                            transform: translateY(-80%);
-                        }
-                        100% {
-                            opacity: 1;
-                            transform: translateY(0px);
-                        }
                     }
