@@ -21,6 +21,15 @@
                         color: #fff;
                     }
                     
+                    .title-image {
+                        width: 60%;
+                        transform: rotate(25deg);
+                    }
+                    
+                    .download {
+                        margin: 5% 3% 5% 0;
+                    }
+                    
                     .navbar-brand {
                         color: orangered;
                     }
@@ -211,27 +220,5 @@
                         100% {
                             opacity: 1;
                             transform: translateY(0px);
-                        }
-                    }
-                    
-                    @keyframes slide {
-                        0% {
-                            opacity: 0;
-                            transform: translateX(-1000%);
-                        }
-                        100% {
-                            opacity: 1;
-                            transform: translateX(0px);
-                        }
-                    }
-                    
-                    @keyframes slide2 {
-                        0% {
-                            opacity: 0;
-                            transform: translateX(-100%);
-                        }
-                        100% {
-                            opacity: 1;
-                            transform: translateX(0px);
                         }
                     }
