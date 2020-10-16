@@ -56,6 +56,17 @@
                         color: steelblue;
                     }
                     
+                    #banner {
+                        text-align: center;
+                        background-color: #ef8172;
+                        color: #fff;
+                    }
+                    
+                    .banner-image {
+                        width: 20%;
+                        margin: 20px;
+                    }
+                    
                     .about img {
                         float: right;
                         width: 20%;
