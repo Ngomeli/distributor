@@ -16,7 +16,7 @@
                     }
                     
                     .container-fluid {
-                        padding: 3% 15%;
+                        padding: 3% 15% 7%;
                     }
                     
                     #title {
@@ -27,6 +27,7 @@
                     .title-image {
                         width: 60%;
                         transform: rotate(25deg);
+                        right: 30px;
                     }
                     
                     .navbar {
@@ -58,8 +59,9 @@
                     
                     #banner {
                         text-align: center;
-                        background-color: #ef8172;
+                        background-color: rgb(68, 56, 56);
                         color: #fff;
+                        padding: 3%;
                     }
                     
                     .banner-image {
