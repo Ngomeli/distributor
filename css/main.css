@@ -22,6 +22,7 @@
                     #title {
                         background-color: #000000;
                         color: #fff;
+                        font-family: 'Noto Serif', serif;
                     }
                     
                     .title-image {
@@ -62,6 +63,7 @@
                         background-color: rgb(68, 56, 56);
                         color: #fff;
                         padding: 3%;
+                        font-family: 'Noto Serif', serif;
                     }
                     
                     .banner-image {
@@ -73,6 +75,7 @@
                         padding: 100px;
                         text-align: center;
                         margin: 30px 30px 60px;
+                        font-family: 'Noto Serif', serif;
                     }
                     
                     .product-service {
@@ -106,6 +109,7 @@
                     #about {
                         background-color: rgb(68, 56, 56);
                         color: #fff;
+                        font-family: 'Noto Serif', serif;
                     }
                     
                     .purpose {
@@ -139,6 +143,10 @@
                         color: #3b5999;
                         background-color: #fff;
                         border-radius: 20px;
+                    }
+                    
+                    #contant {
+                        font-family: 'Noto Serif', serif;
                     }
                     
                     .form {
